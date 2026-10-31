@@ -1,13 +1,46 @@
 
 
 .btn {
-  padding: 10px 18px;
-  border: none;
-  border-radius: 8px;
-  background: #2563eb;
-  color: white;
-  cursor: pointer;
+  box-shadow: 3px 0px 13px -1px #3dc21b;
+	background:linear-gradient(to bottom, #45a7c7 5%, #5cbf2a 100%);
+	background-color:#45a7c7;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:14px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
 }
 
-.btn:hover { background: #1d4ed8; }
-.btn.toss { background: #dc2626; }
+.btn:hover {
+  background:linear-gradient(to bottom, #5cbf2a 5%, #45a7c7 100%);
+	background-color:#5cbf2a; 
+}
+
+.btn.toss { 
+	box-shadow: 3px 0px 13px -1px #ab2e3b;
+	background:linear-gradient(to bottom, #265563 5%, #f2080b 100%);
+	background-color:#265563;
+	border-radius:28px;
+	border:1px solid #87363a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:14px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2b2e2a;
+}
+.btn.toss:hover {
+	background:linear-gradient(to bottom, #f2080b 5%, #265563 100%);
+	background-color:#f2080b;
+}
+.btn.toss:active {
+	position:relative;
+	top:1px;
+}
