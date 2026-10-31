@@ -1,0 +1,67 @@
+/**
+ * StAuth10244: I Taeyoung Hwang, 000855719 certify that this 
+ * material is my original work. 
+ * No other person's work has been used without due acknowledgement. 
+ * I have not made my work available to anyone else.
+ */
+
+
+
+ 
+body {
+  margin: 0;
+  background-color: #f4f6f8;
+  font-family: sans-serif;
+}
+
+
+.layout {
+  display: grid;
+  grid-template-rows: 70px 1fr 100px; 
+  gap: 15px;
+  max-width: 900px; 
+  height: 90vh; 
+  margin: 20px auto; 
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: bold;
+  display:flex;
+  justify-content: space-between;
+}
+
+.content {
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.deal{
+  border: 1px black solid;
+}
+
+.reset{
+  align-items: right;
+}

@@ -1,0 +1,52 @@
+/**
+ * StAuth10244: I Taeyoung Hwang, 000855719 certify that this 
+ * material is my original work. 
+ * No other person's work has been used without due acknowledgement. 
+ * I have not made my work available to anyone else.
+ */
+
+
+ .card {
+  width: 45px;
+  height: 65px;
+  background-color: #ffffff;
+  border: 2px solid #cbd5e1; 
+  border-radius: 12px;       
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08); 
+  display: flex;
+  justify-content: space-between; 
+  padding: 8px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  user-select: none;         
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card.picked{
+    border: 2px solid yellow;
+    transform: translate(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* 색상 분기 클래스 */
+.card.red {
+  color: #dc2626; 
+}
+
+.card.black {
+  color: #1f2937; 
+}
+
+.card-center {
+  justify-content: center;
+  align-items: center;
+  font-size: 32px; 
+}
+
+
+
